@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="44958" started-at="2022-03-13T08:42:59 UTC" finished-at="2022-03-13T08:43:43 UTC">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="44958" started-at="2022-03-13T08:42:59 UTC" finished-at="2022-03-13T08:43:43 UTC">
+      <class name="com.swiggy.runnerfiles.TestRunner">
+        <test-method status="PASS" signature="extentreportStart()[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="extentreportStart" is-config="true" duration-ms="192" started-at="2022-03-13T08:42:58 UTC" finished-at="2022-03-13T08:42:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreportStart -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="setUpClass" is-config="true" duration-ms="461" started-at="2022-03-13T08:42:59 UTC" finished-at="2022-03-13T08:42:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="runScenario" duration-ms="3675" started-at="2022-03-13T08:42:59 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T08:43:03 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Button Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swiggy Application - DashBoard Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="runScenario" duration-ms="3419" started-at="2022-03-13T08:43:03 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T08:43:06 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SignUp Button Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swiggy Application - DashBoard Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="runScenario" duration-ms="3177" started-at="2022-03-13T08:43:06 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T08:43:09 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Find Food Button Validation without selecting location"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swiggy Application - DashBoard Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="runScenario" duration-ms="8387" started-at="2022-03-13T08:43:09 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T08:43:18 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Locate Me Button Validation without selecting location"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swiggy Application - DashBoard Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="runScenario" duration-ms="11300" started-at="2022-03-13T08:43:18 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T08:43:29 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Signin swiggy application with registered mobile number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swiggy Application - Signin]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="runScenario" duration-ms="14357" started-at="2022-03-13T08:43:29 UTC" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T08:43:43 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Signin swiggy application with unregistered mobile number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swiggy Application - Signin]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="tearDownClass" is-config="true" duration-ms="138" started-at="2022-03-13T08:43:43 UTC" finished-at="2022-03-13T08:43:43 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="extentreportflush()[pri:0, instance:com.swiggy.runnerfiles.TestRunner@5faeada1]" name="extentreportflush" is-config="true" duration-ms="240" started-at="2022-03-13T08:43:44 UTC" finished-at="2022-03-13T08:43:44 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreportflush -->
+      </class> <!-- com.swiggy.runnerfiles.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

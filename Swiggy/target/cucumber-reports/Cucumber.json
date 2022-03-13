@@ -1,0 +1,766 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-13T08:42:59.674Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilazeVarExtent(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1075000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilaizeDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login Button Validation",
+        "description": "",
+        "id": "swiggy-application---dashboard-validation;login-button-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.endExtentRep(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1711000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch the swiggy application \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_launch_the_swiggy_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 507000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login page should be displayed",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.login_page_should_be_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-13T08:43:03.219Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilazeVarExtent(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 806000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilaizeDriver()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "SignUp Button Validation",
+        "description": "",
+        "id": "swiggy-application---dashboard-validation;signup-button-validation",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.endExtentRep(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2335000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user launch the swiggy application \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_launch_the_swiggy_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on signUp button",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.user_click_on_sign_up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "signup should be displayed",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.signup_should_be_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-13T08:43:06.628Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilazeVarExtent(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 609000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilaizeDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Find Food Button Validation without selecting location",
+        "description": "",
+        "id": "swiggy-application---dashboard-validation;find-food-button-validation-without-selecting-location",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.endExtentRep(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2376000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user launch the swiggy application \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_launch_the_swiggy_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on findFood button",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.user_click_on_find_food_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "and user validate the meassage for deleviery location",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.and_user_validate_the_meassage_for_deleviery_location()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-13T08:43:09.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilazeVarExtent(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 741000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilaizeDriver()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Locate Me Button Validation without selecting location",
+        "description": "",
+        "id": "swiggy-application---dashboard-validation;locate-me-button-validation-without-selecting-location",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.endExtentRep(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2482000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user launch the swiggy application \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_launch_the_swiggy_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5062000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on locateMe button",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.user_click_on_locate_me_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy Application - DashBoard Validation",
+    "description": "",
+    "id": "swiggy-application---dashboard-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DashBoard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-13T08:43:18.195Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilazeVarExtent(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 833000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilaizeDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Signin swiggy application with registered mobile number",
+        "description": "",
+        "id": "swiggy-application---signin;signin-swiggy-application-with-registered-mobile-number",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.endExtentRep(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2359000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch the swiggy application \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_launch_the_swiggy_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5077000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on locateMe button",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.user_click_on_locate_me_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login page should be displayed",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.login_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1720000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the phone number",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_enters_the_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on loginbutton",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_click_on_loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter otp section will be shown",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.enter_otp_section_will_be_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-13T08:43:29.491Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilazeVarExtent(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 808000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.intilaizeDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Signin swiggy application with unregistered mobile number",
+        "description": "",
+        "id": "swiggy-application---signin;signin-swiggy-application-with-unregistered-mobile-number",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.endExtentRep(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.stepdefination.Hooks.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1941000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch the swiggy application \"url\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"url\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_launch_the_swiggy_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5058000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on locateMe button",
+            "match": {
+              "location": "com.swiggy.stepdefination.DashboardStepdef.user_click_on_locate_me_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user valiadtes the page tittle",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_valiadtes_the_page_tittle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "login page should be displayed",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.login_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1147000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters the unregistered phone number",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_enters_the_unregistered_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on loginbutton",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.user_click_on_loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5110000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "signup popup should be shown",
+            "match": {
+              "location": "com.swiggy.stepdefination.HomepageStepDef.signup_popup_should_be_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy Application - Signin",
+    "description": "",
+    "id": "swiggy-application---signin",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/HomePage.feature",
+    "tags": []
+  }
+]
